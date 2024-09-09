@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Poppins', sans-serif;
+
+
+}
+.navbar{
+background-color:#D8F1FF ;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 20px;
+width: 100%;
+opacity: 99999;
+
+
+
+
+
+
+}
+
+
+.navbar a img{
+height: 40px;
+}
+
+.btn{
+padding: 10px 30px;
+border: none;
+border-radius: 20px;
+background-color: #DB5050;
+color: #fff;
+font-size: 18px;
+text-transform: uppercase;
+cursor: pointer;
+
+}
+ul li ul.dropdown li {
+    display: block;
+  
+    
+    
+    }
+    ul li ul.dropdown {
+    width:223px;
+  background-color: #314151;
+    position: absolute;
+    z-index: 1;
+    border-radius: 0px 20px 20px 0px  ;
+    display: none;
+   
+    }
+    ul li a:hover {
+    background: #314151;
+    border-radius: 0px 50px 50px 0px  ;
+    width: 222px;
+    color: #fff;
+    
+
+    }
+    ul li:hover ul.dropdown{
+    display: block;
+    }
+
+/*  end dropdown*/
+
+
+/*-- sidebar ---*/
+
+.sidebar{
+   width:100%;
+  
+   display: flex;
+
+}
+.sidebar-left{
+   width: 20%;
+   background-color: #D8F1FF;
+ 
+   
+}
+
+
+.sidebar-menu a{
+   text-decoration:none;
+   color: black;
+   
+   display: block;
+   padding: 20px;
+   
+   
+   font-weight: 600;
+
+}
+
+.sidebar-menu{
+   
+   padding: 50px 0;
+   
+}
+
+
+
+/* students */
+
+.sidebar-right{
+    width: 80%;
+   
+    
+   margin: 9px;
+}
+
+
+  /* verification details */
+ 
+ .verify{
+    margin-left: 80px;
+    background: #F3F3F3;
+   width: 82%; 
+    border-radius: 8px;
+  
+ }
+ 
+ .image-verify{
+ margin-top: 20px;
+   display: flex;
+   justify-content: space-around;
+  
+ }
+ .image-verify img{
+    width: 30%;
+  margin-top: 20px;
+    object-fit: cover;
+ }
+ .text-verify{
+    margin: 15px;
+    width: 800px;
+ }
+ .verify-down img{
+    width: 45%;
+   
+  margin-left: 200px;
+    object-fit: cover;
+ }
+ .verify-button{
+    text-align: center;
+ }
+ .verify-button .button1{
+    background-color: #0F98B4;
+    border: none;
+    color: #fff;
+    padding: 7px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+  margin: 10px;
+ }
+ .verify-button .button2{
+    background-color: #DB5050;
+    border: none;
+    color: #fff;
+    padding: 7px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+  margin: 10px;
+ }

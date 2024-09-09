@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Poppins', sans-serif;
+
+
+}
+.navbar{
+background-color:#D8F1FF ;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 20px;
+width: 100%;
+opacity: 99999;
+
+
+
+
+
+
+}
+
+
+.navbar a img{
+height: 40px;
+}
+
+.btn{
+padding: 10px 30px;
+border: none;
+border-radius: 20px;
+background-color: #DB5050;
+color: #fff;
+font-size: 18px;
+text-transform: uppercase;
+cursor: pointer;
+
+}
+ul li ul.dropdown li {
+    display: block;
+  
+    
+    
+    }
+    ul li ul.dropdown {
+    width:225px;
+  background-color: #314151;
+    position: absolute;
+    z-index: 1;
+    border-radius: 0px 20px 20px 0px  ;
+    display: none;
+   
+    }
+    ul li a:hover {
+    background: #314151;
+    border-radius: 0px 50px 50px 0px  ;
+    width: 222px;
+    color: #fff;
+    
+
+    }
+    ul li:hover ul.dropdown{
+    display: block;
+    }
+
+/*  end dropdown*/
+
+
+/*-- sidebar ---*/
+
+.sidebar{
+  width:100%;
+ height: 100vh;
+  display: flex;
+
+}
+.sidebar-left{
+  width: 20%;
+  background-color: #D8F1FF;
+
+  
+}
+
+
+.sidebar-menu a{
+  text-decoration:none;
+  color: black;
+  
+  display: block;
+  padding: 20px 20px;
+  
+  
+  font-weight: 600;
+
+}
+
+.sidebar-menu{
+  
+  padding: 50px 0;
+  
+}
+
+
+
+/* subject and add subject */
+
+.sidebar-right{
+    width: 80%;
+    
+
+    
+   
+}
+ .sidebar-right .student-section{
+    display: flex;
+    justify-content: space-between;
+
+    align-items: center;
+    margin: 10px;
+    
+    
+ }
+ .sidebar-right .student-section .add-subject{
+    background: #0F97B3;
+    color: #fff;
+    padding: 15px 2px;
+    border-radius: 50px;
+    width: 250px;
+    border: none;
+    cursor: pointer;
+    
+;
+ }
+ 
+ .sidebar-right .student-section .add-subject span{
+    background: #fff;
+    color: black;
+   border-radius: 50px;
+   font-size: 21px;
+   font-weight: 600;
+   padding: 8px 15px;
+    
+    margin: 5px;
+    
+ }
+ .sidebar-right .student-section .add-subject  a{
+    text-decoration: none;
+    color: #fff;
+    
+    font-size: 20px;
+    cursor: pointer;
+    
+ }
+    
+
+    
+
+  /* categories details */
+.subject-name{
+    width: 100%;
+   
+    
+    display: flex;
+}
+
+  .categories{
+  padding-left: 10px;
+    width: 250%;
+    display: flex;
+    flex-wrap: wrap;
+   
+  }
+  
+  .categories .subject1{
+width: 250px;
+height: 50px;
+border-radius: 50px;
+padding:  12px;
+background-color: #F3F3F3;
+margin-bottom: 30px;
+
+  }
+  .categories .subject1 a{
+    text-decoration: none;
+   
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+    line-height: 6px;
+   
+   
+   
+   
+  }
+
+ .categories .subject1  span{
+   text-align: center;
+    font-size: 18px;
+    float: right;
+    background-color: #314151;
+    padding: 7px 10px;
+   
+    color: #fff;
+    border-radius: 50px;
+
+ }
+ /* It information */
+ .subject-it {
+ 
+    width: 400px;
+    height: 65px;
+    padding: 20px 10px;
+    background-color: #F3F3F3;
+    border-radius: 50px;
+   
+ }
+ .subject-it a {
+    color: black;
+    font-size: 18px;
+    
+    font-weight: 600;
+    text-decoration: none;
+ }
+
+.subject-it span{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    background-color:#1B2C3E;
+    padding: 4px 13px;
+    border-radius: 50px;
+    float: right;
+ 
+}
+.main-it {
+    width: 100%;
+   
+    padding-left: 30px;
+    gap: 100px;
+    display: flex;
+  
+    
+}
+ /* end it information */

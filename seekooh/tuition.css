@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Poppins', sans-serif;
+overflow: hidden;
+
+}
+.navbar{
+background-color:#D8F1FF ;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 20px;
+width: 100%;
+opacity: 99999;
+
+
+
+
+
+
+}
+
+
+.navbar a img{
+height: 40px;
+}
+
+.btn{
+padding: 10px 30px;
+border: none;
+border-radius: 20px;
+background-color: #DB5050;
+color: #fff;
+font-size: 18px;
+text-transform: uppercase;
+cursor: pointer;
+
+}
+ul li ul.dropdown li {
+    display: block;
+  
+    
+    
+    }
+    ul li ul.dropdown {
+    width:200px;
+  background-color: #314151;
+    position: absolute;
+    z-index: 1;
+    border-radius: 0px 20px 20px 0px  ;
+    display: none;
+   
+    }
+    ul li a:hover {
+    background: #314151;
+    border-radius: 0px 50px 50px 0px  ;
+    width: 222px;
+    color: #fff;
+    
+
+    }
+    ul li:hover ul.dropdown{
+    display: block;
+    }
+
+/*  end dropdown*/
+
+
+/*-- sidebar ---*/
+
+.sidebar{
+    width:100%;
+    
+    display: flex;
+
+}
+.sidebar-left{
+    width: 20%;
+    background-color: #D8F1FF;
+    height: 90vh;
+    opacity: 0.9;
+}
+
+
+.sidebar-menu a{
+    text-decoration:none;
+    color: black;
+    
+    display: block;
+    padding: 19px;
+    
+    font-size: 19px;
+    font-weight: 600;
+
+}
+
+.sidebar-menu{
+    
+    padding: 50px 0;
+    
+}
+
+
+/* students */
+
+.sidebar-right{
+    width: 80%;
+   
+    
+   margin: 20px;
+}
+
+
+  /* Tuition details */
+  .tuition-card {
+   margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+
+  }
+ 
+
+  .tuition-card   .tuition-details{
+    width: 410px;
+
+border-radius: 20px;
+    background-color: #F3F3F3;
+
+  }
+
+ 
+
+  .men-information{
+    padding: 10px;
+  }
+  
+  .men-information p{
+    margin: 5px;
+    padding: 5px;
+    font-size: 18px;
+    
+  }
+  .img-section{
+    display: flex;
+    
+    
+   
+  }
+ 
+   
+  .img-section h2{
+margin-left: 10px;
+  }
